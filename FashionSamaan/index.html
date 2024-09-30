@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FashionSamaan Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Dashboard Section -->
+  <div id="dashboard" class="dashboard">
+    <header class="dashboard-header">
+      <h1>FashionSamaan</h1>
+      <p>Best Products, Fast Delivery</p>
+      <div class="user-profile">
+        <span id="user-initial">A</span> <!-- Change 'A' to the first letter of the user's name -->
+      </div>
+    </header>
+    <main>
+      <h2>Store</h2>
+      <iframe src="https://fashionsamaan.blinkstore.in/" width="100%" height="400px"></iframe>
+    </main>
+    <footer class="footer">
+      <a href="https://instagram.com/1timedesigning" target="_blank">
+        <img src="https://www.kortegaard.co.uk/wp-content/uploads/2020/06/best-solutions-of-instagram-png-transparent-png-images-unique-white-instagram-logo-outline-of-white-instagram-logo-outline-copy.png" alt="Instagram" width="40px">
+      </a>
+      <span id="about-us-link">About Us</span> | 
+      <span id="contact-us-link">Contact Us</span>
+    </footer>
+  </div>
+
+  <!-- About Us Popup -->
+  <div id="about-us-modal" class="modal hidden">
+    <div class="modal-content">
+      <h2>About Us</h2>
+      <p>FashionSamaan is your go-to store for the best products with the fastest delivery. We aim to bring the latest fashion trends right to your doorstep!</p>
+      <button id="back-from-about" class="back-btn">Back</button>
+    </div>
+  </div>
+
+  <!-- Contact Us Popup -->
+  <div id="contact-us-modal" class="modal hidden">
+    <div class="modal-content">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <label for="contact-email">Your Email:</label>
+        <input type="email" id="contact-email" placeholder="Enter your email" required><br>
+        <label for="message">Your Message:</label>
+        <textarea id="message" placeholder="Enter your message" required></textarea><br>
+        <p>Your message will be sent to: <strong>fashionsamaan2@gmail.com</strong></p>
+        <button type="submit">Send</button>
+      </form>
+      <button id="back-from-contact" class="back-btn">Back</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

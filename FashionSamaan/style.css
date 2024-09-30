@@ -1,0 +1,94 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Dashboard Section */
+.dashboard {
+  background-color: cyan;
+  color: white;
+  padding: 20px;
+}
+
+/* Header styles */
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+.dashboard-header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+.dashboard-header p {
+  margin: 0;
+  font-size: 16px;
+}
+.user-profile {
+  background-color: #555;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+/* Footer styles */
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.footer a img {
+  margin-right: 10px;
+}
+.footer span {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Modal styles */
+.modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+.modal-content {
+  text-align: center;
+}
+.back-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.back-btn:hover {
+  background-color: #555;
+}
+
+/* Hidden class for modals */
+.hidden {
+  display: none;
+}
